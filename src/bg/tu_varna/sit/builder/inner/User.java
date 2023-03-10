@@ -13,7 +13,7 @@ public class User {
         return userName;
     }
 
-    private void setUserName(String userName) {
+    public void setUserName(String userName) {
         this.userName = userName;
     }
 
@@ -21,7 +21,7 @@ public class User {
         return password;
     }
 
-    private void setPassword(String password) {
+    public void setPassword(String password) {
         this.password = password;
     }
 
@@ -29,7 +29,7 @@ public class User {
         return firstName;
     }
 
-    private void setFirstName(String firstName) {
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
@@ -37,7 +37,7 @@ public class User {
         return lastName;
     }
 
-    private void setLastName(String lastName) {
+    public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
@@ -45,7 +45,7 @@ public class User {
         return location;
     }
 
-    private void setLocation(String location) {
+    public void setLocation(String location) {
         this.location = location;
     }
 
